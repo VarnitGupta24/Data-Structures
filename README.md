@@ -1,6 +1,6 @@
 # VarnitDataStructuresT3
 
-https://github.com/VarnitGupta24/VarnitGupta24.github.io/issues- Review Ticket
+https://github.com/VarnitGupta24/VarnitDataStructuresT3/blob/main/READ…- Review Ticket
 
 blueprint:
 ```java
