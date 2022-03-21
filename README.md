@@ -2,6 +2,8 @@
 
 https://github.com/VarnitGupta24/VarnitGupta24.github.io/issues/1 - Review Ticket
 
+https://replit.com/@VarnitGupta/DataStructureWeek1#Main.java - Week 2 repl.it code DataChallengeWeek1
+
 blueprint:
 ```java
 package src;
