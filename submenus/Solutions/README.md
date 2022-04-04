@@ -24,5 +24,8 @@ Week 2:
 - Calulator:
 
 Week 3:
-- Sorts: https://replit.com/@VarnitGupta/Sorts-and-Analysis#BubbleSort.java
+- BubbleSort: https://replit.com/@VarnitGupta/BubbleSort#Main.java
+- InsertionSort: https://replit.com/@VarnitGupta/InsertionSort#Main.java
+- SelectionSort: https://replit.com/@VarnitGupta/SelectionSort#Main.java
+- MergeSort: https://replit.com/@VarnitGupta/MergeSort#Main.java
 
