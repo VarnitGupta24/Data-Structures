@@ -27,6 +27,9 @@ Big O Complexity definition: Used to describe the complexity of an algorithm whe
     Quick Sort	Ω(n log(n))	θ(n log(n))	O(n^2)	 
     Merge Sort	Ω(n log(n))	θ(n log(n))	O(n log(n))
 # Analysis (25%).
+    considering Data Structure loading, Comparisons, Swaps, Big O complexity, and Time, I conclude that the best sort is Merge Sort
+Why?
 
--
--
+- Merge sort is better for large data structures: Mergesort is a stable sort, unlike BubbleSort and InsertionSort, and can be easily adapted to operate on linked lists and very large lists stored on slow-to-access media such as disk storage or network attached storage.
+
+- Mergesort is a stable sort, unlike quicksort and heapsort, and can be easily adapted to operate on linked lists and very large lists stored on slow-to-access media such as disk storage or network attached storage.
