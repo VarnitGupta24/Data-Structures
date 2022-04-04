@@ -10,10 +10,10 @@
 
 
 #Sorts:
-#Code Snippets That Highlight Learning:
+#Sort implementations and the Big O complexity of these Sorts(25%):
 --
 -
 # Analysis (25%).
-Sort implementations and the Big O complexity of these Sorts:
+
 --
 -
