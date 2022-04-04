@@ -1,0 +1,213 @@
+I"çs<h1 id="varnitdatastructurest3">VarnitDataStructuresT3</h1>
+
+<p>https://github.com/VarnitGupta24/VarnitGupta24.github.io/issues/1 - Review Ticket</p>
+
+<p>Week 1 -</p>
+
+<p>Here are some code snippets from my repl to highlight my learning</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="kt">int</span> <span class="n">input</span><span class="o">;</span>
+        <span class="n">input</span> <span class="o">=</span> <span class="n">scan</span><span class="o">.</span><span class="na">nextInt</span><span class="o">();</span>  
+        <span class="k">if</span><span class="o">(</span><span class="n">input</span> <span class="o">==</span> <span class="mi">1</span><span class="o">)</span> <span class="o">{</span> 
+            <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"string:"</span><span class="o">);</span>
+            <span class="nc">Scanner</span> <span class="n">addQueueScan</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Scanner</span><span class="o">(</span><span class="nc">System</span><span class="o">.</span><span class="na">in</span><span class="o">);</span>  
+            <span class="nc">String</span> <span class="n">toQueue</span> <span class="o">=</span> <span class="n">addQueueScan</span><span class="o">.</span><span class="na">nextLine</span><span class="o">();</span>  
+            <span class="n">queue</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">toQueue</span><span class="o">);</span>
+            <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Size: "</span> <span class="o">+</span> <span class="n">queue</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">+</span> <span class="s">", data: "</span> <span class="o">+</span> <span class="n">queue</span><span class="o">);</span>
+            <span class="n">menu</span><span class="o">(</span>  <span class="o">);</span>
+
+</code></pre></div></div>
+
+<p>This is my first time using addQueueScan</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"q1: 1 -&gt; 4 -&gt; 5 -&gt; 8 -&gt; nil"</span><span class="o">);</span>
+            <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"q2: 2 -&gt; 3 -&gt; 6 -&gt; 7 -&gt; nil"</span><span class="o">);</span>
+            <span class="nc">Queue</span><span class="o">&lt;</span><span class="nc">Object</span><span class="o">&gt;</span> <span class="n">q1</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">LinkedList</span><span class="o">&lt;&gt;();</span> 
+            <span class="n">q1</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="mi">1</span><span class="o">);</span>
+            <span class="n">q1</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="mi">4</span><span class="o">);</span>
+            <span class="n">q1</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="mi">5</span><span class="o">);</span>
+            <span class="n">q1</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="mi">8</span><span class="o">);</span>
+            <span class="n">q1</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="s">"nil"</span><span class="o">);</span>
+            <span class="nc">Queue</span><span class="o">&lt;</span><span class="nc">Object</span><span class="o">&gt;</span> <span class="n">q2</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">LinkedList</span><span class="o">&lt;&gt;();</span> 
+            <span class="n">q2</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="mi">2</span><span class="o">);</span>
+            <span class="n">q2</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="mi">3</span><span class="o">);</span>
+            <span class="n">q2</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="mi">6</span><span class="o">);</span>
+            <span class="n">q2</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="mi">7</span><span class="o">);</span>
+
+            <span class="nc">Queue</span><span class="o">&lt;</span><span class="nc">Object</span><span class="o">&gt;</span> <span class="n">sortedQueue</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">LinkedList</span><span class="o">&lt;&gt;();</span>
+</code></pre></div></div>
+
+<p>Sorting arraylist and queue</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">else</span> <span class="k">if</span> <span class="o">(</span><span class="n">input</span> <span class="o">==</span> <span class="mi">5</span><span class="o">)</span> <span class="o">{</span> 
+            <span class="nc">Queue</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="n">q</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">LinkedList</span><span class="o">&lt;&gt;();</span> 
+            <span class="n">q</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="mi">1</span><span class="o">);</span>
+            <span class="n">q</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="mi">2</span><span class="o">);</span>
+            <span class="n">q</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="mi">3</span><span class="o">);</span>
+
+            <span class="nc">Stack</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="n">reversedStack</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Stack</span><span class="o">&lt;&gt;();</span>
+
+            <span class="kt">int</span> <span class="n">qSize</span> <span class="o">=</span> <span class="n">q</span><span class="o">.</span><span class="na">size</span><span class="o">();</span> 
+
+            <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">qSize</span><span class="o">;</span> <span class="n">i</span><span class="o">++</span> <span class="o">)</span> <span class="o">{</span> 
+                <span class="n">reversedStack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">q</span><span class="o">.</span><span class="na">poll</span><span class="o">());</span>
+            <span class="o">}</span>
+            <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">qSize</span><span class="o">;</span> <span class="n">j</span><span class="o">++</span> <span class="o">)</span> <span class="o">{</span> 
+                <span class="n">q</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">reversedStack</span><span class="o">.</span><span class="na">pop</span><span class="o">());</span>
+            <span class="o">}</span>
+            <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">q</span><span class="o">);</span> 
+            <span class="n">menu</span><span class="o">();</span>
+</code></pre></div></div>
+<p>This was the most fun part to code because I love doing for loops and I thought the reverse was very cool.
+Week 0 Code - 
+blueprint:</p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">package</span> <span class="nn">src</span><span class="o">;</span>
+
+<span class="kd">public</span> <span class="kd">abstract</span> <span class="kd">class</span> <span class="nc">Blueprint</span> <span class="o">{</span>
+    <span class="nc">String</span> <span class="n">optionTitle</span><span class="o">;</span>
+
+    <span class="kd">public</span> <span class="nf">Blueprint</span><span class="o">(</span><span class="nc">String</span> <span class="n">optionTitle</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">this</span><span class="o">.</span><span class="na">optionTitle</span> <span class="o">=</span> <span class="n">optionTitle</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kd">abstract</span> <span class="kt">void</span> <span class="nf">run</span><span class="o">();</span>
+
+    <span class="kd">public</span> <span class="nc">String</span> <span class="nf">getTitle</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="k">this</span><span class="o">.</span><span class="na">optionTitle</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+
+<span class="nl">exit:</span>
+<span class="err">```</span><span class="n">java</span> 
+<span class="kn">package</span> <span class="nn">src</span><span class="o">;</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Exit</span> <span class="kd">extends</span> <span class="nc">Blueprint</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="nf">Exit</span><span class="o">(</span><span class="nc">String</span> <span class="n">optionTitle</span><span class="o">)</span> <span class="o">{</span>
+        <span class="kd">super</span><span class="o">(</span><span class="n">optionTitle</span><span class="o">);</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">run</span><span class="o">()</span> <span class="o">{</span>
+        <span class="nc">System</span><span class="o">.</span><span class="na">exit</span><span class="o">(</span><span class="mi">0</span><span class="o">);</span>
+    <span class="o">}</span>
+
+<span class="o">}</span>
+
+</code></pre></div></div>
+<p>matrix:</p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">package</span> <span class="nn">src</span><span class="o">;</span>
+
+<span class="kn">import</span> <span class="nn">java.util.HashMap</span><span class="o">;</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Matrix</span> <span class="kd">extends</span> <span class="nc">Blueprint</span> <span class="o">{</span>
+    <span class="nc">HashMap</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">,</span> <span class="nc">String</span><span class="o">&gt;</span> <span class="n">hexValues</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">HashMap</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">,</span> <span class="nc">String</span><span class="o">&gt;();</span>
+
+    <span class="kd">public</span> <span class="nf">Matrix</span><span class="o">(</span><span class="nc">String</span> <span class="n">optionTitle</span><span class="o">)</span> <span class="o">{</span>
+        <span class="kd">super</span><span class="o">(</span><span class="n">optionTitle</span><span class="o">);</span>
+
+        <span class="n">hexValues</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="mi">10</span><span class="o">,</span> <span class="s">"a"</span><span class="o">);</span>
+        <span class="n">hexValues</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="mi">11</span><span class="o">,</span> <span class="s">"b"</span><span class="o">);</span>
+        <span class="n">hexValues</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="mi">12</span><span class="o">,</span> <span class="s">"c"</span><span class="o">);</span>
+        <span class="n">hexValues</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="mi">13</span><span class="o">,</span> <span class="s">"d"</span><span class="o">);</span>
+        <span class="n">hexValues</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="mi">14</span><span class="o">,</span> <span class="s">"e"</span><span class="o">);</span>
+        <span class="n">hexValues</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="mi">15</span><span class="o">,</span> <span class="s">"f"</span><span class="o">);</span>
+    <span class="o">}</span>
+
+    <span class="c1">// declare and initialize a matrix for a keypad</span>
+    <span class="kd">private</span> <span class="kd">static</span> <span class="kt">int</span><span class="o">[][]</span> <span class="nf">keypad</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[][]</span> <span class="o">{</span> <span class="o">{</span> <span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span> <span class="o">},</span> <span class="o">{</span> <span class="mi">4</span><span class="o">,</span> <span class="mi">5</span><span class="o">,</span> <span class="mi">6</span> <span class="o">},</span> <span class="o">{</span> <span class="mi">7</span><span class="o">,</span> <span class="mi">8</span><span class="o">,</span> <span class="mi">9</span> <span class="o">},</span> <span class="o">{</span> <span class="o">-</span><span class="mi">1</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="o">-</span><span class="mi">1</span> <span class="o">}</span> <span class="o">};</span>
+    <span class="o">}</span>
+
+    <span class="c1">// declare and initialize a random length arrays</span>
+    <span class="kd">private</span> <span class="kd">static</span> <span class="kt">int</span><span class="o">[][]</span> <span class="nf">numbers</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[][]</span> <span class="o">{</span> <span class="o">{</span> <span class="mi">0</span><span class="o">,</span> <span class="mi">1</span> <span class="o">},</span>
+                <span class="o">{</span> <span class="mi">0</span><span class="o">,</span> <span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">,</span> <span class="mi">4</span><span class="o">,</span> <span class="mi">5</span><span class="o">,</span> <span class="mi">6</span><span class="o">,</span> <span class="mi">7</span><span class="o">,</span> <span class="mi">8</span><span class="o">,</span> <span class="mi">9</span> <span class="o">},</span>
+                <span class="o">{</span> <span class="mi">0</span><span class="o">,</span> <span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">,</span> <span class="mi">4</span><span class="o">,</span> <span class="mi">5</span><span class="o">,</span> <span class="mi">6</span><span class="o">,</span> <span class="mi">7</span><span class="o">,</span> <span class="mi">8</span><span class="o">,</span> <span class="mi">9</span><span class="o">,</span> <span class="mi">10</span><span class="o">,</span> <span class="mi">11</span><span class="o">,</span> <span class="mi">12</span><span class="o">,</span> <span class="mi">13</span><span class="o">,</span> <span class="mi">14</span><span class="o">,</span> <span class="mi">15</span> <span class="o">}</span> <span class="o">};</span>
+    <span class="o">}</span>
+
+    <span class="kd">private</span> <span class="kt">void</span> <span class="nf">print</span><span class="o">(</span><span class="kt">int</span><span class="o">[][]</span> <span class="n">m</span><span class="o">)</span> <span class="o">{</span>
+        <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">();</span>
+        <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">m</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+            <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">m</span><span class="o">[</span><span class="n">i</span><span class="o">].</span><span class="na">length</span><span class="o">;</span> <span class="n">j</span><span class="o">++)</span> <span class="o">{</span>
+                <span class="k">if</span> <span class="o">(</span><span class="n">m</span><span class="o">[</span><span class="n">i</span><span class="o">][</span><span class="n">j</span><span class="o">]</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span> <span class="o">&amp;&amp;</span> <span class="n">m</span><span class="o">[</span><span class="n">i</span><span class="o">][</span><span class="n">j</span><span class="o">]</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="o">)</span>
+                    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="n">m</span><span class="o">[</span><span class="n">i</span><span class="o">][</span><span class="n">j</span><span class="o">]);</span>
+                <span class="k">else</span> <span class="nf">if</span> <span class="o">(</span><span class="n">m</span><span class="o">[</span><span class="n">i</span><span class="o">][</span><span class="n">j</span><span class="o">]</span> <span class="o">&gt;</span> <span class="mi">9</span><span class="o">)</span>
+                    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="n">hexValues</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">m</span><span class="o">[</span><span class="n">i</span><span class="o">][</span><span class="n">j</span><span class="o">]));</span>
+                <span class="k">else</span>
+                    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">" "</span><span class="o">);</span>
+                <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">" "</span><span class="o">);</span>
+            <span class="o">}</span>
+            <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">();</span>
+        <span class="o">}</span>
+
+        <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">();</span>
+
+        <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="na">length</span> <span class="o">-</span> <span class="mi">1</span><span class="o">;</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span><span class="o">--)</span> <span class="o">{</span>
+            <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="n">m</span><span class="o">[</span><span class="n">i</span><span class="o">].</span><span class="na">length</span> <span class="o">-</span> <span class="mi">1</span><span class="o">;</span> <span class="n">j</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">j</span><span class="o">--)</span> <span class="o">{</span>
+                <span class="k">if</span> <span class="o">(</span><span class="n">m</span><span class="o">[</span><span class="n">i</span><span class="o">][</span><span class="n">j</span><span class="o">]</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span> <span class="o">&amp;&amp;</span> <span class="n">m</span><span class="o">[</span><span class="n">i</span><span class="o">][</span><span class="n">j</span><span class="o">]</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="o">)</span>
+                    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="n">m</span><span class="o">[</span><span class="n">i</span><span class="o">][</span><span class="n">j</span><span class="o">]);</span>
+                <span class="k">else</span> <span class="nf">if</span> <span class="o">(</span><span class="n">m</span><span class="o">[</span><span class="n">i</span><span class="o">][</span><span class="n">j</span><span class="o">]</span> <span class="o">&gt;</span> <span class="mi">9</span><span class="o">)</span>
+                    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="n">hexValues</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">m</span><span class="o">[</span><span class="n">i</span><span class="o">][</span><span class="n">j</span><span class="o">]));</span>
+                <span class="k">else</span>
+                    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">" "</span><span class="o">);</span>
+                <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">" "</span><span class="o">);</span>
+            <span class="o">}</span>
+            <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">();</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">run</span><span class="o">()</span> <span class="o">{</span>
+        <span class="n">print</span><span class="o">(</span><span class="n">keypad</span><span class="o">());</span>
+        <span class="n">print</span><span class="o">(</span><span class="n">numbers</span><span class="o">());</span>
+    <span class="o">}</span>
+
+<span class="o">}</span>
+
+</code></pre></div></div>
+<p>sample:</p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">package</span> <span class="nn">src</span><span class="o">;</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Sample</span> <span class="kd">extends</span> <span class="nc">Blueprint</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="nf">Sample</span><span class="o">(</span><span class="nc">String</span> <span class="n">optionTitle</span><span class="o">)</span> <span class="o">{</span>
+        <span class="kd">super</span><span class="o">(</span><span class="n">optionTitle</span><span class="o">);</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">run</span><span class="o">()</span> <span class="o">{</span>
+        <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"This is the sample yo"</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+</code></pre></div></div>
+<p>swap:</p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">package</span> <span class="nn">src</span><span class="o">;</span>
+
+<span class="kn">import</span> <span class="nn">java.util.Scanner</span><span class="o">;</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Swap</span> <span class="kd">extends</span> <span class="nc">Blueprint</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="nf">Swap</span><span class="o">(</span><span class="nc">String</span> <span class="n">optionTitle</span><span class="o">)</span> <span class="o">{</span>
+        <span class="kd">super</span><span class="o">(</span><span class="n">optionTitle</span><span class="o">);</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">run</span><span class="o">()</span> <span class="o">{</span>
+        <span class="nc">Scanner</span> <span class="n">scanner</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Scanner</span><span class="o">(</span><span class="nc">System</span><span class="o">.</span><span class="na">in</span><span class="o">);</span>
+        <span class="k">try</span> <span class="o">{</span>
+            <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Enter 2 numbers to demonstrate swap"</span><span class="o">);</span>
+            <span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="n">scanner</span><span class="o">.</span><span class="na">nextInt</span><span class="o">();</span>
+            <span class="kt">int</span> <span class="n">b</span> <span class="o">=</span> <span class="n">scanner</span><span class="o">.</span><span class="na">nextInt</span><span class="o">();</span>
+
+            <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"BEFORE: a is: "</span> <span class="o">+</span> <span class="n">a</span> <span class="o">+</span> <span class="s">" b is: "</span> <span class="o">+</span> <span class="n">b</span><span class="o">);</span>
+            <span class="kt">int</span> <span class="n">temp</span> <span class="o">=</span> <span class="n">b</span><span class="o">;</span>
+            <span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="o">;</span>
+            <span class="n">a</span> <span class="o">=</span> <span class="n">temp</span><span class="o">;</span>
+            <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"AFTER: a is: "</span> <span class="o">+</span> <span class="n">a</span> <span class="o">+</span> <span class="s">" b is: "</span> <span class="o">+</span> <span class="n">b</span><span class="o">);</span>
+        <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="nc">Exception</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
+            <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Invalid input, try again"</span><span class="o">);</span>
+            <span class="n">run</span><span class="o">();</span>
+        <span class="o">}</span>
+
+    <span class="o">}</span>
+<span class="o">}</span>
+
+</code></pre></div></div>
+<p>```java</p>
+:ET
