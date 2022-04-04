@@ -1,1 +1,1 @@
-|[Home](.)| [Review Tickets](reviewtickets) | [Tech Talk ](techtalknotes)| [Problem solutions ](SolutionNotes)| [Test Prep plan ](testprepplan)|[sorts](sorts)|
+|[Home](.)| [Tickets](Tickets) | [TechTalks ](TechTalks)| [Solutions ](Solutions)| [TPT](TPT)|[Solution Notes](Solution Notes)|
