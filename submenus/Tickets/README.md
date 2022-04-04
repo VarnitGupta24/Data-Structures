@@ -11,7 +11,7 @@ All links to review tickets:
 - Week 2: https://github.com/VarnitGupta24/Data-Structures/issues/3
 
 
-- Week 3:
+- Week 3: https://github.com/VarnitGupta24/VarnitGupta24.github.io/issues/4
 
 
 - Week 4:
