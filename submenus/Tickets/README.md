@@ -1,4 +1,4 @@
-|[Home](.)| [Review Tickets](.) | [Tech Talk ](../techtalknotes)| [Problem solutions ](../problemsolutions)| [Test Prep plan ](../testprepplan)|[sorts ](../sorts)|
+||[Home](.)| [Tickets](Tickets) | [TechTalks ](TechTalks)| [Solutions ](Solutions)| [TPT ](TPT)|[Solution%20Notes](Solution%20Notes)|
 # Review Ticket Links
 All links to review tickets:
 

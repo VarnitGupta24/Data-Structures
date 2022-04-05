@@ -1,4 +1,4 @@
-|[Home](.)| [Review Tickets](../reviewtickets) | [Tech Talk ](../techtalknotes)| [Problem solutions ](.)| [Test Prep plan ](../testprepplan)|[sorts ](../sorts)|
+||[Home](.)| [Tickets](Tickets) | [TechTalks ](TechTalks)| [Solutions ](Solutions)| [TPT ](TPT)|[Solution%20Notes](Solution%20Notes)|
 # Problem Solutions
 Week 0:
 - Problem 1
