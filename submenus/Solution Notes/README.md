@@ -1,4 +1,4 @@
-||[Home](.)| [Tickets](Tickets) | [TechTalks ](TechTalks)| [Solutions ](Solutions)| [TPT ](TPT)|[Solution%20Notes](Solution%20Notes)|
+||[Home](.)| [Tickets](Tickets) | [TechTalks ](../TechTalks)| [Solutions ](.//Solutions)| [TPT ](TPT)|[.](Solution%20Notes)|
 #Week0:
 #Code Snippets That Highlight Learning:
 
