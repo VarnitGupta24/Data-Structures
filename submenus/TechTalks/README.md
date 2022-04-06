@@ -1,4 +1,4 @@
-|[Home](../Home)| [Tickets](../Tickets) | [TechTalks](.)| [solutions](../solutions)| [TPT](../TPT)|[SolutionNotes](../SolutionNotes)|
+|[Home](../Home)| [Tickets](../Tickets) | [TechTalks](.)| [Solutions](../solutions)| [TPT](../TPT)|[SolutionNotes](../SolutionNotes)|
 
 # Notes on Tech Talks
 **- Tech Talk 1:**
