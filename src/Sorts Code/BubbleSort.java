@@ -7,6 +7,9 @@ import java.time.Instant;
 
 public class BubbleSort {
 
+    public static int swaps = 0;
+    public static int comparisons = 0;
+
     public static double nanoToSeconds(long nano) {
 		return nano / 1000000000.0;
 	}
@@ -18,33 +21,38 @@ public class BubbleSort {
     static void bubbleSort(int arr[])
     {
         //write code here
+		int swaps = 0;
+		int comparisons = 0;
         for(int j = 0; j < arr.length - 1; j++)
         {
             System.out.println();
             for(int i = 0; i < arr.length - 1 - j; i++)
             {
+				comparisons++;
                 if(arr[i] > arr[i+1])
                 {
                     //salient feature: side-by-side swap
                     int temp = arr[i];
                     arr[i] = arr[i+1];
                     arr[i+1] = temp;
+					swaps++;
                 }
                 System.out.println(Arrays.toString(arr));
             }
         }
+		System.out.println(swaps);
+		System.out.println(comparisons);
     }
-
-    public static int swaps = 0;
-    public static int comparisions = 0;
 
     static void bubbleSort(ArrayList<Integer> words) {
         for (int i = 0; i < words.size() - 1; i++) {
             for (int j = 0; j < words.size() - 1 - i; j++) {
+				comparisons++;
                 if (words.get(j) > words.get(j + 1)) {
                     int temp = words.get(j);
                     words.set(j, words.get(j + 1));
                     words.set(j + 1, temp);
+					swaps++;
                 }
             }
         }
@@ -68,7 +76,7 @@ public class BubbleSort {
             bubbleSort(q);
 			endTime = Instant.now();
 			duration = Duration.between(startTime, endTime);
-			totalComparisions += comparisions;
+			totalComparisions += comparisons;
 			totalSwaps += swaps;
 			totalTime += (long) duration.getNano();
 			averageTime += (double) duration.getNano() / SAMPLESIZE;
