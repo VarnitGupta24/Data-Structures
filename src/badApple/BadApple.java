@@ -1,3 +1,4 @@
+import java.time.Instant;
 import java.util.Scanner;
 import java.io.IOException;
 import java.io.File;
@@ -9,23 +10,20 @@ import java.io.FileNotFoundException;
 public class BadApple {
 	private int cw;
 	private int ch;
-	private long FRAME = 0;
+	public long FRAME = 1;
+	public final int fps = 20;
 
-	private String srcDir = "res";
+	private String resDir = "res";
 	private BufferedReader br;
 
 	public BadApple(int canvasW, int canvasH) {
 		cw = canvasW;
 		ch = canvasH;
-		readFrames();
+		br = readFile(resDir + "/badapple.dat");
 	}
 
 	public void nextFrame() throws IOException {
-		// char escCode = 0x1B;
-		// int row = 10; int column = 10;
-		// System.out.print(String.format("%c[%d;%df",escCode,row,column));
-		// System.out.print("\033[H\033[2J");
-	    	// System.out.flush();
+		// resets cursor position (or clear screen?)
 		System.out.print("\033\143");
 
 		for(int i = 0; i < ch; i++) {
@@ -35,12 +33,13 @@ public class BadApple {
 		FRAME++;
 	}
 
-	public void readFrames() {
+	public BufferedReader readFile(String path) {
 		try {
-			br = new BufferedReader(new FileReader(srcDir + "/badapple.dat"));
+			return new BufferedReader(new FileReader(path));
 		} catch (FileNotFoundException e) {
 			System.err.println(e);
 		}
+		return null;
 	}
 
 	// private void buildFrames(int w, int h) {
@@ -54,12 +53,21 @@ public class BadApple {
 		BadApple ba = new BadApple(80, 40);
 
 		new Thread(() -> {
+			// start time
+			long start = Instant.now().toEpochMilli();
+			long timeElapsed = 0;
 			for(;;) {
-				try { ba.nextFrame(); }
-				catch (IOException e) { System.err.println(e);}
-				// System.out.println("fuckyou");
+				try { 
+					ba.nextFrame(); 
+				} catch (IOException e) { System.err.println(e);}
+
 				try {
-					Thread.sleep(50);
+					while (timeElapsed < 1000 / ba.fps * ba.FRAME) {
+						// System.out.println(timeElapsed);
+						// System.out.println(1000 / ba.fps * ba.FRAME);
+						Thread.sleep(5);
+						timeElapsed = (Instant.now().toEpochMilli() - start);
+					}
 				} catch (InterruptedException e) {
 					System.err.println(e);
 				}

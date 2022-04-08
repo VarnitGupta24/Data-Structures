@@ -4,13 +4,17 @@ import cv2
 res_dir = "res"
 canvas_width = 80
 canvas_height = 40
+frames = 0
 
 cap = cv2.VideoCapture(res_dir + "/badapple.mp4")
 
 char_list = [' ', '`', '\'', '.', '-', '_', ',', '"', ':', '!', '=', '~', ';', '>', '+', '<', '^', '*', 'r', ')', '(', '?', '|', '/', '\\', 'v', 'x', ']', '[', 'i', 'L', '7', 'Y', '}', '{', 'T', 'l', '1', 'u', 'n', 'c', 'V', 'y', 'w', 'J', '2', 'k', 'z', 't', 'C', 'j', 'o', 'X', 'F', 'I', 'h', '4', 'U', 's', 'e', 'm', 'f', 'K', 'a', '3', 'P', 'H', 'G', 'W', 'A', 'q', 'p', 'S', '%', '5', 'M', 'Z', 'b', 'd', 'O', 'N', '6', '9', 'R', 'E', 'D', '0', '&', '$', 'g', '8', 'Q', 'B', '#', '@'];
+with open(res_dir + "/badapple.dat", "w+") as f:
+    f.write("")
 
 with open(res_dir + "/badapple.dat", "a+") as f:
     while(cap.isOpened()):
+        frames += 1
 
         frame_exists, frame = cap.read()
         if not frame_exists:
@@ -34,3 +38,6 @@ with open(res_dir + "/badapple.dat", "a+") as f:
                 ]
             out += "\n"
         f.write(out)
+
+with open(res_dir + "/frames.dat", "w+") as f:
+    f.write(str(frames))
