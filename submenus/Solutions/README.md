@@ -1,4 +1,4 @@
-||[Home](.)| [Tickets](Tickets) | [TechTalks ](.//TechTalks)| [Solutions ](.)| [TPT ](TPT)|[Solution%20Notes](Solution%20Notes)|
+|[Home](../Home)| [Tickets](../Tickets) | [TechTalks](../TechTalks)| [Solutions](.)| [TPT](../TPT)|[SolutionNotes](../SolutionNotes)|
 # Problem Solutions
 Week 0:
 - Problem 1
