@@ -1,0 +1,2 @@
+test:
+	java BadApple.java
