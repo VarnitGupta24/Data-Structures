@@ -1,13 +1,19 @@
 |[Home](../Home)| [Tickets](../Tickets) | [TechTalks](../TechTalks)| [Solutions](../Solutions)| [TPT](../TPT)|[SolutionNotes](.)|
 #Week0:
 #Code Snippets That Highlight Learning:
+![img.png](img.png)
+
+
 
 #Week1:
 #Code Snippets That Highlight Learning:
-
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
 #Week2:
 #Code Snippets That Highlight Learning:
-
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)
+![img_5.png](img_5.png)
 
 #Sorts:
 #Sort implementations and the Big O complexity of these Sorts(25%):
