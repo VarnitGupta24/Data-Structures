@@ -15,7 +15,74 @@ Pages Tutorial
 "Solution%20Notes" will show code snippets and notes from my code
 ```
 Study plan -
+```java 
+ 
+- Week of March 7th: Review Unit 1+2 content. Do practice MC and FRQ, and place the link to the completed work here
+
+
+- Week of March 14th: Review Unit 3+4 content. Do practice MC and FRQ, and place the link to the completed work here
+
+
+- Week of March 21th: Review Unit 5 content. Do practice MC and FRQ, and place the link to the completed work here
+
+
+- Week of March 28th: Review Unit 6 content. Do practice MC and FRQ, and place the link to the completed work here
+
+
+- Week of April 4th: Review Unit 7 content. Do practice MC and FRQ, and place the link to the completed work here
+
+
+- Week of April 11th: Review Unit 8 content. Do practice MC and FRQ, and place the link to the completed work here
+
+
+- Week of April 18th: Review Unit 9 content. Do practice MC and FRQ, and place the link to the completed work here
+
+
+- Week of April 25th: Review Unit 10 content. Do practice MC and FRQ, and place the link to the completed work here
+
+  - in depth - 
+ 
+    - Monday - practice MCQ test
+    - Tuesday - practice frq test
+    - Wednesday - review practice mcq test
+    - Thursday - review practice frq test
+    - Friday - upload frq in repl for review
+    - saturday - mock ap exam
+```
 
 MCQ results and corrections -
+```java 
+Score - 31/39
 
-FRQ repl - 
+Corrections:
+
+number -5 :answer=a  why---
+
+number -8 :answer=  why---
+
+number -11 :answer=  why---
+
+number -14 :answer=  why---
+
+number -10 :answer=  why---
+
+number -23 :answer=  why---
+
+number -37 :answer=  why---
+
+number -38 :answer=  why---
+
+```
+
+FRQ repl and images - 
+ 
+
+repl:https://replit.com/@VarnitGupta/Frqs#Main.java
+
+images:
+![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)
+![img_5.png](img_5.png)
