@@ -1,5 +1,5 @@
 
-|[Study](.)| [Tickets](../Tickets) | [TechTalks](.)| [Solutions](../Solutions)| [TPT](../TPT)|[SolutionNotes](../SolutionNotes)|
+|[Study](.)| [Tickets](Tickets) | [TechTalks](TechTalks)| [Solutions](../Solutions)| [TPT](TPT)|[SolutionNotes](SolutionNotes)|
 
 #### About
 ```java 
@@ -13,3 +13,9 @@ Pages Tutorial
 "Solutions" Will include my repl.it links and tangibles for my code
 "TPT" will show my plan and progress for AP exam studying
 "Solution%20Notes" will show code snippets and notes from my code
+```
+Study plan -
+
+MCQ results and corrections -
+
+FRQ repl - 
