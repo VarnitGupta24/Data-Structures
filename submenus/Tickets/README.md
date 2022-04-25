@@ -1,4 +1,4 @@
-|[Home](../Home)| [Tickets](.) | [TechTalks](.)| [Solutions](../Solutions)| [TPT](../TPT)|[SolutionNotes](../SolutionNotes)|
+|[Study](../Study)| [Tickets](.) | [TechTalks](.)| [Solutions](../Solutions)| [TPT](../TPT)|[SolutionNotes](../SolutionNotes)|
 # Review Ticket Links
 All links to review tickets:
 

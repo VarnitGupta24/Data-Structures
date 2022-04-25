@@ -1,5 +1,5 @@
 
-|[Home](Home)| [Tickets](Tickets) | [TechTalks](TechTalks)| [Solutions](../Solutions)| [TPT](TPT)|[SolutionNotes](SolutionNotes)|
+|[Study](.)| [Tickets](../Tickets) | [TechTalks](.)| [Solutions](../Solutions)| [TPT](../TPT)|[SolutionNotes](../SolutionNotes)|
 
 #### About
 ```java 
