@@ -77,6 +77,7 @@ If you are unsure of whether your solution is correct, make up some test cases a
 
 
 MCQ results and corrections -
+
 ```java 
 Score - 31/39
 
@@ -92,11 +93,11 @@ number -14 :answer=C  why--- If and b are the same values, then it will most lik
 
 number -19 :answer=E  why--- Nothing will be printed for I,II, and III. This will not print anything because they will cause a compiling error.
 
-number -23 :answer=C  why--- {3, 4, 5, 2, 1}
+number -23 :answer=C  why--- {3, 4, 5, 2, 1}. For this problem I had used proccess of elimination. The other options had errors in the first or second index, but I did not catch the rror for answer b. After looking back at it it was a silly error, and the answer is evidently c.
 
-number -37 :answer=E  why---
+number -37 :answer=E  why---  I had initially chosen that both II and III were correct, but after looking at it III will not run. This is because K will not be returned.
 
-number -38 :answer=C  why---
+number -38 :answer=C  why---  Returns the number of elements in numbers that are equal to val is the correct answer. This isebcause after the methodd will be run, Var will equal the results.
 
 ```
 
